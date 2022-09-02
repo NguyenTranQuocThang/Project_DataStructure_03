@@ -7,5 +7,5 @@ so i will to find 0,2 and hence 1 will be automatic sort
 0,2 can be sort follow location(0-> start list, 2-> end list)
 
 Time Complex O(n)
-Space Complexity O(0)
+Space Complexity O(1)
 Base(bubble sort, but Time complexity reduce 1/2)

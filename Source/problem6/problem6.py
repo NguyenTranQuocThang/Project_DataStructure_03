@@ -2,6 +2,10 @@ import random
 
 
 def get_min_max(ints):
+
+    if len(ints) == 0:
+        return 0, 0
+
     min = ints[0]
     max = ints[0]
     for i in ints:
@@ -26,3 +30,8 @@ print("Pass" if ((0, 99) == get_min_max(l)) else "Fail")
 l = [i for i in range(1, 9)]  # a list containing 1 - 8
 random.shuffle(l)
 print("Pass" if ((1, 8) == get_min_max(l)) else "Fail")
+
+
+l = [i for i in range(0, 0)]  # a list containing 0 - 0
+random.shuffle(l)
+print("Pass" if ((0, 0) == get_min_max(l)) else "Fail")

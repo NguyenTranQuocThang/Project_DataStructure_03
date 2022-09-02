@@ -70,4 +70,6 @@ interact(f, prefix='')
 
 # f => expect : [un,unction,actory]
 # t => expect : [rie,rigger,rigonometry,ripod]
-# a => expect : [nthology,antagonist,ntonym]
+# a => expect : [nt,nthology,ntonym]
+
+# ' ' => expect: empty

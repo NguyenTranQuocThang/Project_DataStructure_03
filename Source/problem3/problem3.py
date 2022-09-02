@@ -3,6 +3,9 @@ from turtle import right
 
 def rearrange_digits(input_list):
 
+    if len(input_list) == 0:
+        return (0, 0)
+
     input_list = merge_sort(input_list)
 
     num1 = ''
@@ -61,3 +64,6 @@ test_function([[1, 2, 3, 4, 5], [542, 31]])
 test_function([[4, 6, 2, 5, 9, 8], [964, 852]])
 
 test_function([[1, 2, 3, 6, 7, 8], [862, 731]])
+
+
+test_function([[], [0, 0]])

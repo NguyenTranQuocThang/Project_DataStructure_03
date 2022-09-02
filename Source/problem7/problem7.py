@@ -83,7 +83,6 @@ class Router:
 
         # Here are some test cases and expected outputs you can use to test your implementation
 
-
         # create the router and add a route
         # remove the 'not found handler' if you did not implement this
 router = Router()
@@ -113,6 +112,17 @@ print(router.lookup("/home/about/"))  # should print 'not about handler'
 
 router = Router()
 router.add_handler("/")  # add a route
+
+# some lookups with the expected output
+print(router.lookup("/"))  # should print 'root handler'
+print(router.lookup("/home"))  # should print 'not about handler'
+print(router.lookup("/home/"))  # should print 'not about handler'
+print(router.lookup("/home/about"))  # should print 'not about handler'
+print(router.lookup("/home/about/"))  # should print 'not about handler'
+
+
+router = Router()
+router.add_handler("")  # add a route
 
 # some lookups with the expected output
 print(router.lookup("/"))  # should print 'root handler'

@@ -28,4 +28,4 @@ continue call recursive append another element (what have is_word is true)
 Time Complexity algorithmn: O(log(n))
 Space Complexity : O(1)
 
-Base(binary tree & dictonary)
+Base(Trie & dictonary)

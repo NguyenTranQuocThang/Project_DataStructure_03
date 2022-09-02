@@ -6,6 +6,6 @@ and check if min > element -> set min again
 and if max < element -> set max again
 
 Time Complex : O(n)
-Space Complex: O(2)
+Space Complex: O(1)
 
 Base(Linear search)
