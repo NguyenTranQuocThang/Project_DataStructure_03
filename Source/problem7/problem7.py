@@ -98,3 +98,25 @@ print(router.lookup("/home/about"))  # should print 'about handler'
 print(router.lookup("/home/about/"))
 # should print 'not found handler' or None if you did not implement one
 print(router.lookup("/home/about/me"))
+
+
+router = Router()
+router.add_handler("/home")  # add a route
+
+# some lookups with the expected output
+print(router.lookup("/"))  # should print 'root handler'
+print(router.lookup("/home"))  # should print 'about handler'
+print(router.lookup("/home/"))  # should print 'about handler'
+print(router.lookup("/home/about"))  # should print 'not about handler'
+print(router.lookup("/home/about/"))  # should print 'not about handler'
+
+
+router = Router()
+router.add_handler("/")  # add a route
+
+# some lookups with the expected output
+print(router.lookup("/"))  # should print 'root handler'
+print(router.lookup("/home"))  # should print 'not about handler'
+print(router.lookup("/home/"))  # should print 'not about handler'
+print(router.lookup("/home/about"))  # should print 'not about handler'
+print(router.lookup("/home/about/"))  # should print 'not about handler'

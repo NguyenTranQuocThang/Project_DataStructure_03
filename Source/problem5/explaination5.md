@@ -25,4 +25,7 @@ i check if len of sub children is not empty
 -> else:
 continue call recursive append another element (what have is_word is true)
 
-Complexity algorithmn: O(log(n))
+Time Complexity algorithmn: O(log(n))
+Space Complexity : O(1)
+
+Base(binary tree & dictonary)

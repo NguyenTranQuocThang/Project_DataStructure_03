@@ -25,3 +25,8 @@ I can use that code for case list what's not rotate
 
 so i separate case is rotate: -> handle like memo solution
 else: -> just binary search normal
+
+Time Complexity: Olog(n)
+Space Complexity: O(3) (save start point, end point, list )
+
+Base(Binary search)

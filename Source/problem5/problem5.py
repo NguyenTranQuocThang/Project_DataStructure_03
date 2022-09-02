@@ -47,7 +47,7 @@ class Trie:
 
 MyTrie = Trie()
 wordList = [
-    "ant", "anthology", "antagonist", "antonym",
+    "ant", "anthology", "ntagonist", "antonym",
     "fun", "function", "factory",
     "trie", "trigger", "trigonometry", "tripod"
 ]
@@ -67,3 +67,7 @@ def f(prefix):
 
 
 interact(f, prefix='')
+
+# f => expect : [un,unction,actory]
+# t => expect : [rie,rigger,rigonometry,ripod]
+# a => expect : [nthology,antagonist,ntonym]

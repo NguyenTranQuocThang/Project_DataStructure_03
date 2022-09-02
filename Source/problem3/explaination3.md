@@ -4,4 +4,7 @@ So I create 2 number
 I think greater number will start with max number
 And If i want to get the second big number I need to start with max number - 1 index
 
-Complexity: Olog(n), because 0->9 is constant 10 is over small for O(n) so complexity still Olog(n)
+Time Complexity: Olog(n), because 0->9 is constant 10 is over small for O(n) so complexity still Olog(n)
+Space Complexity: O(2) (left-right)
+
+Base (merge sort)

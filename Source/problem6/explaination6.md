@@ -5,4 +5,7 @@ I iterate array
 and check if min > element -> set min again
 and if max < element -> set max again
 
-Complex : O(n)
+Time Complex : O(n)
+Space Complex: O(2)
+
+Base(Linear search)
